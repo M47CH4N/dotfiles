@@ -37,5 +37,6 @@ echo
 scripts/initialize.sh
 echo
 
-echo "Bootstrapping DONE!"
+echo "Bootstrapping DONE! Reboot now."
+sudo shutdown -r now
 
